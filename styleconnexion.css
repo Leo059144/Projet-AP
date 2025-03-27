@@ -1,0 +1,137 @@
+body {
+    display: flex;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin-left: 10em;
+    width: calc(100% - 10em);
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    margin-left: 10em;
+    margin-top: 6em;
+    width: calc(100% - 10em);
+}
+
+/* Sidebar container */
+
+
+.sidebar {
+    width: 10em;
+    background-color: #339cd4;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1em 0;
+    position: fixed;
+    height: 100%;
+    border-right: 2px solid #ddd;
+    object-fit: contain;
+}
+
+.sidebar input {
+    width: 100%;
+    height: 5em;
+    margin: 0.5em 0;
+    object-fit: contain;
+}
+
+header {
+    height: 5em;
+    width: 100%;
+    margin-left: 10em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #235e94;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+form.connexion {
+    display: grid;
+    align-self: center;
+    padding: 2em;
+    background-color: white;
+    box-shadow: 10px 10px 10px lightgray;
+    border-radius: 15px;
+    width: 25em;
+    height: 25em;
+}
+
+input[type=submit] {
+    background-color: #339CD4;
+    color: black;
+    padding: 16px 32px;
+    margin: 4px px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+/*
+input[type=submit]:hover {
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    margin: 4px px;
+    cursor: pointer;
+}
+*/
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+thead {
+    background-color: #ddd;
+    font-weight: bold;
+}
+
+th, td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+}
+
+th {
+    background-color: #339cd4;
+    color: black;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.formBloc{
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
